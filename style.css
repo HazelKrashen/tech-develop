@@ -52,6 +52,31 @@ nav{
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 30px rgba(0,255,255,0.4);
 }
+.btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #00ffff, #0ea5e9);
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px rgba(0,255,255,0.5);
+}
+.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+}
+.btn.secondary {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  box-shadow: none;
+}
+.btn.secondary:hover {
+  background: rgba(0,255,255,0.1);
+  box-shadow: 0 0 15px #00ffff;
+}
 footer{
   text-align:center;
   padding:20px;
